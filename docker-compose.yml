@@ -221,6 +221,7 @@ services:
       timeout: 10s
       retries: 120
   kibana:
+    container_name: kibana
     depends_on:
       es01:
         condition: service_healthy
@@ -257,7 +258,8 @@ services:
       timeout: 10s
       retries: 120
 
-  logstash01:
+  logstash:
+    container_name: logstash
     depends_on:
       es01:
         condition: service_healthy
