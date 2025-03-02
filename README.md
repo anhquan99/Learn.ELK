@@ -10,8 +10,12 @@ This repository is for learning ELK (Elasticsearch, Logstash, Kibana) stack and 
 ## Usage
 
 1. Clone this repository
-2. Run `docker-compose up -d` to start the ELK stack
+2. Run `docker compose up -d` to start the ELK stack
 3. Go to `http://localhost:5601` to access Kibana
+
+### Clean up
+
+`docker compose down -v`
 
 ## Note
 
