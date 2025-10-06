@@ -17,4 +17,3 @@ This repository is for learning ELK (Elasticsearch, Logstash, Kibana) stack and 
 
 This repository is for learning purpose only. Do not use it in production.
 Test 02
-Sync from upstream test
